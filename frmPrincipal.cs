@@ -32,6 +32,8 @@ namespace PROYECTO
             int Edad;
             double CM, Lbs, Altura, Peso, IMC;
 
+            // cambio de nombre
+
             Nombre = txtNombre.Text;
             Alias = txtAlias.Text;
             Edad = int.Parse(txtEdad.Text);
@@ -188,6 +190,11 @@ namespace PROYECTO
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
